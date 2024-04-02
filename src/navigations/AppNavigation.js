@@ -64,6 +64,3 @@ function DrawerStack() {
     </NavigationContainer>
   )
 } 
- 
-
-console.disableYellowBox = true;
