@@ -18,14 +18,15 @@ function MainNavigator() {
     <Stack.Navigator
       screenOptions={{
           headerTitleStyle: {
-            fontWeight: 'bold',
-            textAlign: 'center',
-            alignSelf: 'center',
-            flex: 1,
-          }
+            fontWeight: "bold"
+          },
+          headerStyle: {
+            backgroundColor: "#c9fea9"
+          },
+          headerTitleAlign: "center"
       }}
     >
-      <Stack.Screen name='Home' component={HomeScreen} />
+      <Stack.Screen name='Acasă' component={HomeScreen} />
       <Stack.Screen name='Categories' component={CategoriesScreen}/>
       <Stack.Screen name='Recipe' component={RecipeScreen}/>
       <Stack.Screen name='RecipesList' component={RecipesListScreen} />
