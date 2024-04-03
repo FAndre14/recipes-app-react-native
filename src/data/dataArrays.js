@@ -50,10 +50,19 @@ export const recipes = [
       'https://media.stiridiaspora.ro/image/202101/full/ptrajitura_vant_spaniol.JPG',
       'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_3dNlmuh7zGm0-5RkpKit46w6e8-U_0tHpw9taI2-N6M2WfznzC-nWwmM5aRxwhDCuu7i1G9_DMGQ9zPfW5_vp2kLbcVxqSnXw7pGDSeAiMRRSdY-YlyrV4W9BytN3kowQuHSc3A217Qo/s1600/2.jpg'
     ],
-    time: '65',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    time: '180',
+    ingredients: [
+      [16, '10'],
+      [62, '1kg'],
+      [55, '1kg']],
     description:
-      '- Se face un blat de cacao din 6 ouă.\n\n- Se face un alt blat din 10 albușuri, cu 500gr zahăr și o linguriță de oțet, după care se bagă la cuptor.\n\n- Pentru realizarea cremei, se va utiliza 1 litru de lapte, 2 budinci de vanilie, 10 gălbenușuri și 12-14 linguri de zahăr. Se fierbe pe aburi, după care se amestecă cu o margarină. Crema se va împărți în 2 cantități egale, una va rămâne albă iar în cealaltă se va pune cacao.\n\n- Aranjarea blaturilor: Se va pune blatul maro, crema galbenă, un strat de frișcă, blatul alb (bezeaua), crema maro, iar la final se va acoperi cu frișcă.'
+      `
+      - Se face un blat de cacao din 6 ouă.
+      - Se face un alt blat din 10 albușuri, cu 500gr zahăr și o linguriță de oțet, după care se bagă la cuptor.
+      - Pentru realizarea cremei, se va utiliza 1 litru de lapte, 2 budinci de vanilie, 10 gălbenușuri și 12-14 linguri de zahăr.
+      - Se fierbe pe aburi, după care se amestecă cu o margarină. Crema se va împărți în 2 cantități egale, una va rămâne albă iar în cealaltă se va pune cacao.
+      - Aranjarea blaturilor: Se va pune blatul maro, crema galbenă, un strat de frișcă, blatul alb (bezeaua), crema maro, iar la final se va acoperi cu frișcă.
+      `
   },
   {
     recipeId: 122,
@@ -421,7 +430,7 @@ export const ingredients = [
   },
   {
     ingredientId: 13,
-    name: 'Brown sugar',
+    name: 'Zahăr brun',
     photo_url:
       'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BALQTtekliuc6iu4u/rotating-brown-sugar-in-a-white-container-on-white-background_sis0xtbyl_thumbnail-full01.png'
   },
@@ -433,13 +442,13 @@ export const ingredients = [
   },
   {
     ingredientId: 15,
-    name: 'Whole chicken',
+    name: 'Pui',
     photo_url:
       'https://image.shutterstock.com/image-photo/two-raw-chicken-drumsticks-isolated-260nw-632125991.jpg'
   },
   {
     ingredientId: 16,
-    name: 'Eggs',
+    name: 'Ouă',
     photo_url:
       'https://image.shutterstock.com/image-photo/egg-whites-yolk-cup-isolated-260nw-1072453787.jpg'
   },
@@ -588,7 +597,7 @@ export const ingredients = [
   },
   {
     ingredientId: 42,
-    name: 'Butter',
+    name: 'Unt',
     photo_url: 'https://redrockstoffee.com/media/2016/11/AdobeStock_76417550.jpeg'
   },
   {
@@ -605,7 +614,7 @@ export const ingredients = [
   },
   {
     ingredientId: 45,
-    name: 'Chesse',
+    name: 'Brânză',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/3619997/thumb/1.jpg'
   },
   {
@@ -704,12 +713,6 @@ export const ingredients = [
   },
   {
     ingredientId: 62,
-    name: 'Ouă',
-    photo_url:
-      'https://www.aprozarulvirtual.ro/upload/products/default/3cec64427b486fb27cf70e733088025a.jpg'
-  },
-  {
-    ingredientId: 63,
     name: 'Frișcă',
     photo_url:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_FHtBw_9CaQ8C4_dJj4Y6Ppqn55qy7QUGUEusm_v9w&s'

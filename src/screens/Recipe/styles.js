@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     color: '#2cd18a'
   },
   infoDescriptionRecipe: {
-    textAlign: 'left',
+    textAlign: "justify",
     fontSize: 16,
     marginTop: 30,
     margin: 15
