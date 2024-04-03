@@ -27,9 +27,34 @@ export const categories = [
     name: 'Pizza',
     photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
   },
+  {
+    id: 5,
+    name: 'Prajitura',
+    photo_url: 'https://bucate-aromate.ro/wp-content/uploads/2023/07/Reteta-prajitura-Fanta-cu-branza-dulce-si-jeleu-de-portocale-6.jpg'
+  },
+  {
+    id: 6,
+    name: 'Patiserie',
+    photo_url: 'https://cofetaria-anaconda.ro/wp-content/gallery/patiserie/patiserie.jpg'
+  },
 ];
 
 export const recipes = [
+  {
+    recipeId: 1001,
+    categoryId: 5,
+    title: 'Vânt Spaniol',
+    photo_url: 'https://i.ytimg.com/vi/ROl2eP5-jW8/maxresdefault.jpg',
+    photosArray: [
+      'https://i.ytimg.com/vi/ROl2eP5-jW8/maxresdefault.jpg',
+      'https://media.stiridiaspora.ro/image/202101/full/ptrajitura_vant_spaniol.JPG',
+      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_3dNlmuh7zGm0-5RkpKit46w6e8-U_0tHpw9taI2-N6M2WfznzC-nWwmM5aRxwhDCuu7i1G9_DMGQ9zPfW5_vp2kLbcVxqSnXw7pGDSeAiMRRSdY-YlyrV4W9BytN3kowQuHSc3A217Qo/s1600/2.jpg'
+    ],
+    time: '65',
+    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    description:
+      '- Se face un blat de cacao din 6 ouă.\n\n- Se face un alt blat din 10 albușuri, cu 500gr zahăr și o linguriță de oțet, după care se bagă la cuptor.\n\n- Pentru realizarea cremei, se va utiliza 1 litru de lapte, 2 budinci de vanilie, 10 gălbenușuri și 12-14 linguri de zahăr. Se fierbe pe aburi, după care se amestecă cu o margarină. Crema se va împărți în 2 cantități egale, una va rămâne albă iar în cealaltă se va pune cacao.\n\n- Aranjarea blaturilor: Se va pune blatul maro, crema galbenă, un strat de frișcă, blatul alb (bezeaua), crema maro, iar la final se va acoperi cu frișcă.'
+  },
   {
     recipeId: 122,
     categoryId: 3,
@@ -325,18 +350,18 @@ export const recipes = [
 export const ingredients = [
   {
     ingredientId: 0,
-    name: 'Oil',
+    name: 'Ulei',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/27252067/thumb/11.jpg'
   },
   {
     ingredientId: 1,
-    name: 'Salt',
+    name: 'Sare',
     photo_url:
       'https://image.freepik.com/free-photo/sea-salt-wooden-bowl-isolated-white-background_29402-416.jpg'
   },
   {
     ingredientId: 2,
-    name: 'Russet potatoes',
+    name: 'Cartofi',
     photo_url: 'http://www.valleyspuds.com/wp-content/uploads/Russet-Potatoes-cut.jpg'
   },
   {
@@ -347,7 +372,7 @@ export const ingredients = [
   },
   {
     ingredientId: 4,
-    name: 'Black Pepper',
+    name: 'Piper',
     photo_url: 'https://ak0.picdn.net/shutterstock/videos/26741680/thumb/1.jpg'
   },
   {
@@ -614,7 +639,7 @@ export const ingredients = [
   },
   {
     ingredientId: 51,
-    name: 'Garlic',
+    name: 'Usturoi',
     photo_url: 'https://image.freepik.com/free-photo/fresh-garlic-white-background_1339-17012.jpg'
   },
   {
@@ -631,13 +656,13 @@ export const ingredients = [
   },
   {
     ingredientId: 54,
-    name: 'Crushed Tomatoes',
+    name: 'Roșii',
     photo_url:
       'https://previews.123rf.com/images/merkulovnik/merkulovnik1406/merkulovnik140600100/28751626-crushed-tomato-isolated-on-white-background.jpg'
   },
   {
     ingredientId: 55,
-    name: 'Sugar',
+    name: 'Zahăr',
     photo_url:
       'https://previews.123rf.com/images/sommai/sommai1411/sommai141100034/33199985-sugar-cubes-in-a-bowl-isolated-on-white-background.jpg'
   },
@@ -667,14 +692,26 @@ export const ingredients = [
   },
   {
     ingredientId: 60,
-    name: 'Frozen Straberries',
+    name: 'Căpșuni',
     photo_url:
       'https://www.cascadianfarm.com/wp-content/uploads/2018/12/Strawberries_Main_0218.png'
   },
   {
     ingredientId: 61,
-    name: 'Greek Yogurt',
+    name: 'Iaurt Grecesc',
     photo_url:
       'http://images.media-allrecipes.com/userphotos/960x960/3758635.jpg'
+  },
+  {
+    ingredientId: 62,
+    name: 'Ouă',
+    photo_url:
+      'https://www.aprozarulvirtual.ro/upload/products/default/3cec64427b486fb27cf70e733088025a.jpg'
+  },
+  {
+    ingredientId: 63,
+    name: 'Frișcă',
+    photo_url:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_FHtBw_9CaQ8C4_dJj4Y6Ppqn55qy7QUGUEusm_v9w&s'
   },
 ];
