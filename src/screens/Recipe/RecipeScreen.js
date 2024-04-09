@@ -10,7 +10,6 @@ import {
 import styles from "./styles";
 import Carousel, { Pagination } from "react-native-snap-carousel";
 import {
-  getIngredientName,
   getCategoryName,
   getCategoryById,
 } from "../../data/MockDataAPI";
@@ -32,7 +31,6 @@ export default function RecipeScreen(props) {
 
   useLayoutEffect(() => {
     navigation.setOptions({
-      headerTransparent: "true",
       headerLeft: () => (
         <BackButton
           onPress={() => {
@@ -51,12 +49,6 @@ export default function RecipeScreen(props) {
       </View>
     </TouchableHighlight>
   );
-
-  const onPressIngredient = (item) => {
-    var name = getIngredientName(item);
-    let ingredient = item;
-    navigation.navigate("Ingredient", { ingredient, name });
-  };
 
   return (
     <ScrollView style={styles.container}>
