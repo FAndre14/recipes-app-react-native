@@ -5506,7 +5506,8 @@
     "warn-once" "^0.1.0"
 
 "react-native-snap-carousel@https://github.com/ram33z/react-native-snap-carousel":
-  "resolved" "git+ssh://git@github.com/ram33z/react-native-snap-carousel.git#b8e0f441210de62e786b3ab4b5a42bece8328c36"
+  "integrity" "sha512-Uycu+uMWJfX/9xmZtrNWKiyZQoEcG2RJtjbnVriGb56Y5lUtoMmbXseMMSAguACJ5DIeZbf5fXzGzmFoFJWHqg=="
+  "resolved" "git+ssh://git@github.com/ram33z/react-native-snap-carousel.git"
   "version" "3.9.1"
   dependencies:
     "deprecated-react-native-prop-types" "^2.3.0"
