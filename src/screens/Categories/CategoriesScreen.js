@@ -34,7 +34,7 @@ export default function CategoriesScreen(props) {
   };
 
   const renderCategory = ({ item }) => (
-    <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressCategory(item)}>
+    <TouchableHighlight underlayColor="rgba(0, 0, 0, 0)" onPress={() => onPressCategory(item)}>
       <View style={styles.categoriesItemContainer}>
         <Image style={styles.categoriesPhoto} source={{ uri: item.photo_url }} />
         <Text style={styles.categoriesName}>{item.name}</Text>

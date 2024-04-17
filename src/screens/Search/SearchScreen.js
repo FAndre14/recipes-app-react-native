@@ -43,7 +43,6 @@ export default function SearchScreen(props) {
     setValue(text);
     var recipeArray1 = getRecipesByRecipeName(text);
     var recipeArray2 = getRecipesByCategoryName(text);
-    var recipeArray3 = getRecipesByIngredientName(text);
     var aux = recipeArray1.concat(recipeArray2);
     var recipeArray = [...new Set(aux)];
 
@@ -59,7 +58,7 @@ export default function SearchScreen(props) {
   };
 
   const renderRecipes = ({ item }) => (
-    <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressRecipe(item)}>
+    <TouchableHighlight underlayColor="rgba(0, 0, 0, 0)" onPress={() => onPressRecipe(item)}>
       <View style={styles.container}>
         <Image style={styles.photo} source={{ uri: item.photo_url }} />
         <Text style={styles.title}>{item.title}</Text>

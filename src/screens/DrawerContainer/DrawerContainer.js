@@ -18,18 +18,18 @@ export default function DrawerContainer(props) {
           }}
         />
         <MenuButton
-          title="CATEGORIES"
+          title="Categorii"
           source={require("../../../assets/icons/category.png")}
           onPress={() => {
-            navigation.navigate("Categories");
+            navigation.navigate("Categorii");
             navigation.closeDrawer();
           }}
         />
         <MenuButton
-          title="SEARCH"
+          title="Căutare"
           source={require("../../../assets/icons/search.png")}
           onPress={() => {
-            navigation.navigate("Search");
+            navigation.navigate("Căutare");
             navigation.closeDrawer();
           }}
         />

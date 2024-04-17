@@ -29,7 +29,7 @@ export const categories = [
   },
   {
     id: 5,
-    name: 'Prajitura',
+    name: 'Prăjitură',
     photo_url: 'https://bucate-aromate.ro/wp-content/uploads/2023/07/Reteta-prajitura-Fanta-cu-branza-dulce-si-jeleu-de-portocale-6.jpg'
   },
   {
@@ -200,7 +200,7 @@ export const recipes = [
   {
     recipeId: 4,
     categoryId: 1,
-    title: 'Perfect Fish Tacos',
+    title: 'Tacos cu Pește',
     photo_url: 'https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg',
     photosArray: [
       'http://d2814mmsvlryp1.cloudfront.net/wp-content/uploads/2014/04/WGC-Fish-Tacos-copy-2.jpg',
@@ -209,12 +209,12 @@ export const recipes = [
     ],
     time: '35',
     ingredients: [
-      [30, 'jucie of 1 '],
-      [24, '2 teaspoons'],
-      [0, '3 tablespoons'],
-      [3, '1 teaspoon'],
-      [31, '1/2 teaspoons'],
-      [32, '1/2 teaspoons'],
+      [30, '1'],
+      [24, '2 lng.'],
+      [0, '3 lng.'],
+      [3, '1 lng.'],
+      [31, '1/2 lng.'],
+      [32, '1/2 lng.'],
       [4, '2 teaspoons'],
       [33, '1/2 lb'],
       [27, '8'],
@@ -402,7 +402,7 @@ export const ingredients = [
   },
   {
     ingredientId: 7,
-    name: 'Garlic powder',
+    name: 'Usturoi pudră',
     photo_url:
       'https://us.123rf.com/450wm/belchonock/belchonock1808/belchonock180818180/106007144-bowl-of-dry-garlic-powder-on-white-background.jpg?ver=6'
   },
@@ -414,7 +414,7 @@ export const ingredients = [
   },
   {
     ingredientId: 9,
-    name: 'Dried oregano',
+    name: 'Oregano',
     photo_url: 'https://frutascharito.es/886-large_default/oregano.jpg'
   },
   {
@@ -429,7 +429,7 @@ export const ingredients = [
   },
   {
     ingredientId: 12,
-    name: 'All-purpose flour',
+    name: 'Făină',
     photo_url:
       'https://images.assetsdelivery.com/compings_v2/seregam/seregam1309/seregam130900036.jpg'
   },
@@ -465,12 +465,12 @@ export const ingredients = [
   },
   {
     ingredientId: 18,
-    name: 'Water',
+    name: 'Apă',
     photo_url: 'https://ak1.picdn.net/shutterstock/videos/829561/thumb/11.jpg'
   },
   {
     ingredientId: 19,
-    name: 'Onion Powder',
+    name: 'Ceapă pudră',
     photo_url:
       'https://image.shutterstock.com/image-photo/mixed-spices-isolated-on-white-260nw-662383828.jpg'
   },
@@ -482,7 +482,7 @@ export const ingredients = [
   },
   {
     ingredientId: 21,
-    name: 'Chicken Breast',
+    name: 'Piept de pui',
     photo_url:
       'https://us.123rf.com/450wm/utima/utima1602/utima160200063/53405187-raw-chicken-breast-fillets.jpg?ver=6'
   },
@@ -499,7 +499,7 @@ export const ingredients = [
   },
   {
     ingredientId: 24,
-    name: 'Chilli Powder',
+    name: 'Pudră Chilli',
     photo_url:
       'https://us.123rf.com/450wm/nuttapong/nuttapong1505/nuttapong150500009/40458002-paprika-powder-isolated-on-white-background.jpg?ver=6'
   },
@@ -517,7 +517,7 @@ export const ingredients = [
   },
   {
     ingredientId: 27,
-    name: 'Large Tortillas',
+    name: 'Lipie',
     photo_url: 'https://upload.wikimedia.org/wikipedia/commons/5/56/NCI_flour_tortillas.jpg'
   },
   {
@@ -540,18 +540,18 @@ export const ingredients = [
 
   {
     ingredientId: 31,
-    name: 'Ground cumin',
+    name: 'Chimion',
     photo_url:
       'https://image.shutterstock.com/image-photo/pile-cumin-powder-isolated-on-260nw-1193262853.jpg'
   },
   {
     ingredientId: 32,
-    name: 'Cayenne pepper',
+    name: 'Ardei Iute',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/11461337/thumb/1.jpg'
   },
   {
     ingredientId: 33,
-    name: 'Flaky white fish',
+    name: 'Pește',
     photo_url:
       'https://image.shutterstock.com/image-photo/roach-river-fish-isolated-on-260nw-277764143.jpg'
   },
@@ -563,18 +563,18 @@ export const ingredients = [
   },
   {
     ingredientId: 35,
-    name: 'Red Pepper Flakes',
+    name: 'Ardei Iute Rosu',
     photo_url:
       'https://as1.ftcdn.net/jpg/02/06/55/10/500_F_206551074_mVczUrAWOSMaw8kR48FQDQBqDw47jCtL.jpg'
   },
   {
     ingredientId: 36,
-    name: 'Onions',
+    name: 'Ceapă',
     photo_url: 'http://www.allwhitebackground.com/images/2/2650.jpg'
   },
   {
     ingredientId: 37,
-    name: 'Green Pepper',
+    name: 'Ardei Iute verde',
     photo_url: 'https://ak9.picdn.net/shutterstock/videos/4055509/thumb/1.jpg'
   },
   {
@@ -584,19 +584,19 @@ export const ingredients = [
   },
   {
     ingredientId: 39,
-    name: 'Pizza dough',
+    name: 'Aluat pizza',
     photo_url:
       'https://image.shutterstock.com/image-photo/fresh-raw-dough-pizza-bread-260nw-518950903.jpg'
   },
   {
     ingredientId: 40,
-    name: 'Ketchup sauce',
+    name: 'Ketchup',
     photo_url:
       'https://st2.depositphotos.com/5262887/11050/i/950/depositphotos_110501208-stock-photo-ketchup-bowl-isolated-on-white.jpg'
   },
   {
     ingredientId: 41,
-    name: 'Hot Sauce',
+    name: 'Sos iute',
     photo_url:
       'https://media.istockphoto.com/photos/opened-can-of-spaghetti-sauce-on-a-white-background-picture-id497704752?k=6&m=497704752&s=612x612&w=0&h=JnL54buYu1Z3fGtd8uNdjFxiAKwlxoDluD6jbIfSaZI='
   },
@@ -647,7 +647,7 @@ export const ingredients = [
   },
   {
     ingredientId: 50,
-    name: 'Spaghetti',
+    name: 'Spaghete',
     photo_url:
       'https://previews.123rf.com/images/mfron/mfron1204/mfron120400098/13306773-bunch-of-spaghetti-nudeln-isoliert-auf-wei%C3%9Fem-hintergrund.jpg'
   },
@@ -664,7 +664,7 @@ export const ingredients = [
   },
   {
     ingredientId: 53,
-    name: 'Italian sauce',
+    name: 'Sos italian',
     photo_url:
       'https://previews.123rf.com/images/arinahabich/arinahabich1504/arinahabich150400858/38827029-raw-italian-sausage-on-a-white-background-.jpg'
   },
@@ -700,7 +700,7 @@ export const ingredients = [
   },
   {
     ingredientId: 59,
-    name: 'Banana',
+    name: 'Banane',
     photo_url:
       'https://www.conservationmagazine.org/wp-content/uploads/2013/04/sterile-banana.jpg'
   },

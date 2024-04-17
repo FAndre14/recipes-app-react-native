@@ -27,11 +27,11 @@ function MainNavigator() {
       }}
     >
       <Stack.Screen name='Acasă' component={HomeScreen} />
-      <Stack.Screen name='Categories' component={CategoriesScreen}/>
+      <Stack.Screen name='Categorii' component={CategoriesScreen}/>
       <Stack.Screen name='Recipe' component={RecipeScreen}/>
       <Stack.Screen name='RecipesList' component={RecipesListScreen} />
       <Stack.Screen name='Ingredient' component={IngredientScreen} />
-      <Stack.Screen name='Search' component={SearchScreen} />
+      <Stack.Screen name='Căutare' component={SearchScreen} />
       <Stack.Screen name='IngredientsDetails' component={IngredientsDetailsScreen} />
     </Stack.Navigator>
   )
