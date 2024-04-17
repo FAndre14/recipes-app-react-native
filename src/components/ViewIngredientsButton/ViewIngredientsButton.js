@@ -5,7 +5,7 @@ import styles from './styles';
 
 export default function ViewIngredientsButton (props) {
     return (
-      <TouchableHighlight underlayColor='rgba(0, 0, 0, 0.02)' onPress={props.onPress}>
+      <TouchableHighlight underlayColor='rgba(0, 0, 0, 0)' onPress={props.onPress}>
         <View style={styles.container}>
           <Text style={styles.text}>View Ingredients</Text>
         </View>

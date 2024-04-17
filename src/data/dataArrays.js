@@ -54,7 +54,12 @@ export const recipes = [
     ingredients: [
       [16, '10'],
       [62, '1kg'],
-      [55, '1kg']],
+      [55, '1kg'],
+      [44, '1l'],
+      [63, "1 lng"],
+      [64, '2'],
+      [65, '1'],
+      [66, "200gr"]],
     description:
       `
       - Se face un blat de cacao din 6 ouă.
@@ -608,9 +613,9 @@ export const ingredients = [
   },
   {
     ingredientId: 44,
-    name: 'whole-milk plain yogurt',
+    name: 'Lapte',
     photo_url:
-      'https://st.depositphotos.com/2757384/3317/i/950/depositphotos_33170129-stock-photo-pouring-a-glass-of-milk.jpg'
+      'https://latti.md/wp-content/uploads/2021/05/lapte-latti-2-procente_new.jpg'
   },
   {
     ingredientId: 45,
@@ -716,5 +721,29 @@ export const ingredients = [
     name: 'Frișcă',
     photo_url:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_FHtBw_9CaQ8C4_dJj4Y6Ppqn55qy7QUGUEusm_v9w&s'
+  },
+  {
+    ingredientId: 63,
+    name: 'Oțet',
+    photo_url:
+      'https://grupdzc.ro/media/catalog/product/3/4/34949sgzzbzgc1cxze_600x600.jpg'
+  },
+  {
+    ingredientId: 64,
+    name: 'Budincă Vanilie',
+    photo_url:
+      'https://s13emagst.akamaized.net/products/39198/39197736/images/res_440d10f9672b8badf15b2479f72c2587.jpg'
+  },
+  {
+    ingredientId: 65,
+    name: 'Margarină',
+    photo_url:
+      'https://s.cdnmpro.com/310232724/p/l/4/margarina-rama-clasic-250g~3144.jpg'
+  },
+  {
+    ingredientId: 66,
+    name: 'Cacao',
+    photo_url:
+      'https://dulcinea.ro/wp-content/uploads/2022/08/pudra-cacao-olandeza.png'
   },
 ];

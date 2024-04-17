@@ -25,7 +25,7 @@ export default function IngredientsDetailsScreen(props) {
   };
 
   const renderIngredient = ({ item }) => (
-    <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressIngredient(item[0])}>
+    <TouchableHighlight underlayColor="rgba(0, 0, 0, 0)" onPress={() => onPressIngredient(item[0])}>
       <View style={styles.container}>
         <Image style={styles.photo} source={{ uri: item[0].photo_url }} />
         <Text style={styles.title}>{item[0].name}</Text>
