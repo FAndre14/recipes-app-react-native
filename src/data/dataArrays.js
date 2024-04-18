@@ -1,31 +1,31 @@
 export const categories = [
   {
-    id: 3,
-    name: 'Cookies',
-    photo_url:
-    'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
+    id: 0,
+    name: 'Pizza',
+    photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
   },
   {
     id: 1,
-    name: 'Mexican Food',
+    name: 'Mâncare Mexicană',
     photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
   },
   {
     id: 2,
-    name: 'Italian Food',
+    name: 'Mâncare Italiană',
     photo_url:
       'https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
+  },
+  {
+    id: 3,
+    name: 'Fursecuri',
+    photo_url:
+    'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
   },
   {
     id: 4,
     name: 'Smoothies',
     photo_url:
     'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*'
-  },
-  {
-    id: 0,
-    name: 'Pizza',
-    photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ export const recipes = [
   {
     recipeId: 122,
     categoryId: 3,
-    title: 'Oatmeal Cookies',
+    title: 'Fursecuri cu ovăz',
     photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
     photosArray: [
       'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
@@ -165,39 +165,6 @@ export const recipes = [
       '-- In a medium pot over medium heat, heat 1 tablespoon oil. Add onion and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Add tomato paste and stir to coat onion and garlic. Add ground beef and cook, breaking up meat with a wooden spoon, until no longer pink, 6 minutes. Drain fat.\n\n -- Return beef to pot and season with chili powder, paprika, salt, and pepper. Add tomato sauce and kidney beans. Bring to a boil, then reduce heat and let simmer 15 minutes. Add some chili to center of each tortilla, leaving room to fold in edges. Top with Fritos, then cheddar. Fold edges of tortillas toward the center, creating pleats. Invert Crunchwraps so pleats are on the bottom and stay together.\n\n -- In medium skillet over medium heat, heat remaining tablespoon oil. Add a Crunchwrap seam side down and cook until tortilla is golden, 3 to 5 minutes per side. Repeat with remaining Crunchwraps'
   },
   {
-    recipeId: 1,
-    categoryId: 3,
-    title: 'Brownies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
-    photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
-      'https://images-gmi-pmc.edge-generalmills.com/6fbc6859-e2b1-499d-b0fa-ada600c9cc3f.jpg',
-      'http://www.recipe4living.com/assets/itemimages/400/400/3/83c29ac7418067c2e74f31c8abdd5a43_477607049.jpg',
-      'https://www.franchisechatter.com/wp-content/uploads/2014/08/KFC-Photo-by-James.jpg'
-    ],
-    time: '30',
-    ingredients: [
-      [1, '2 tablespoons'],
-      [3, '1 tablespoon'],
-      [4, '1 teaspoon'],
-      [5, '1/2 teaspoons'],
-      [6, '1/2 teaspoons'],
-      [7, '1/2 teaspoons'],
-      [8, '1/2 teaspoons'],
-      [9, '1/2 teaspoons'],
-      [10, '1/2 teaspoons'],
-      [11, '1/2 teaspoons'],
-      [12, '1/2 cups'],
-      [13, '1 tablespoon'],
-      [14, '1 tablespoon'],
-      [15, '2 breasts, 2 thighs, 2 drumsticks, 2 wings'],
-      [16, '1'],
-      [17, '2 quarts']
-    ],
-    description:
-      '-- Preheat fryer to 350°F. Thoroughly mix together all spices. Combine spices with flour, brown sugar and salt. Dip chicken pieces in egg white to lightly coat them, then transfer to flour mixture. Turn a few times and make sure the flour mix is really stuck to the chicken.\n\n -- Repeat with all the chicken pieces. Let chicken pieces rest for 5 minutes so crust has a chance to dry a bit. Fry chicken in batches. Breasts and wings should take 12-14 minutes, and legs and thighs will need a few more minutes. Chicken pieces are done when a meat thermometer inserted into the thickest part reads 165°F. Let chicken drain on a few paper towels when it comes out of the fryer. Serve hot.'
-  },
-  {
     recipeId: 4,
     categoryId: 1,
     title: 'Tacos cu Pește',
@@ -256,37 +223,6 @@ export const recipes = [
       '-- In a large bowl, combine 2 tablespoons oil, lemon juice and seasonings; add the chicken. Turn to coat; cover. Refrigerate for 1-4 hours In a large skillet, saute peppers and onions in remaining oil until crisp-tender. Remove and keep warm. Drain chicken, discarding marinade. In the same skillet, cook chicken over medium-high heat for 5-6 minutes or until no longer pink.\n\n -- Return pepper mixture to pan; heat through. Spoon filling down the center of tortillas; fold in half. Serve with toppings as desired.'
   },
   {
-    recipeId: 6,
-    categoryId: 2,
-    title: 'Buffalo Pizza',
-    photo_url:
-      'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
-    photosArray: [
-      'https://www.tablefortwoblog.com/wp-content/uploads/2019/01/buffalo-chicken-pizza-recipe-photos-tablefortwoblog-3-500x500.jpg',
-      'http://pizzachoicema.com/wp-content/uploads/2018/08/Buffalo-Chicken-Pizza.jpg',
-      'https://static1.squarespace.com/static/565bb41ae4b0509ba9fdf769/t/5b9a8e80aa4a998b0be0fcf4/1536855690622/pizza.gif'
-    ],
-    time: 50,
-    ingredients: [
-      [39, '1 lb'],
-      [40, '1 cup'],
-      [41, '1/2 cup'],
-      [42, '1/4 cup'],
-      [43, '2 tablespoons'],
-      [44, '1/2 cup'],
-      [7, '1/4 teaspoons'],
-      [5, '1/4 teaspoons'],
-      [30, '1/4 teaspoons'],
-      [45, '2 oz'],
-      [12, 'for dusting'],
-      [4, '1/2 teaspoons'],
-      [47, '2'],
-      [46, '9 oz']
-    ],
-    description:
-      '-- Place a rack in upper third of oven. Place a large cast-iron skillet on rack and preheat oven to 500° (or as high as your oven will go). Place pizza dough in a large bowl, pour a little oil over, and turn to coat. Cover bowl with plastic and let dough proof at room temperature while pan and oven heat up.\n\n -- Meanwhile, cook hot sauce, marinara sauce, and butter in a medium saucepan over medium heat, stirring occasionally, until butter is melted. Stir in cream, reduce heat to low, and simmer, stirring occasionally, until slightly thickened and warmed through, about 10 minutes. Heat 1 Tbsp. oil in a large skillet over medium-high. Add chicken, toss to coat, then add ¼ cup Buffalo sauce.\n\n -- Cook chicken, tossing occasionally, until heated through, about 2 minutes. Reduce heat and simmer, stirring often, until chicken is well coated and sauce is slightly thickened, about 5 minutes. Meanwhile, whisk yogurt, lemon juice, celery salt, garlic powder, ¼ cup blue cheese, ½ tsp. pepper, and 2 Tbsp. water in a small bowl, adding more water if sauce seems too thick (it should be pourable); set aside.\n\n -- Turn out dough onto a lightly floured work surface. Shape with your hands into a round that’s slightly larger than the cast-iron skillet you’re using. Take hot skillet out of oven (watch that handle!) and place on a heatproof surface. Add a little flour to pan. Lay dough in skillet, then work edges of dough up sides of skillet with your fingertips (use a rubber spatula or wooden spoon if you’re nervous about touching the hot pan). Drizzle a little oil around inside edge of pan so that it trickles behind and underneath dough, which will encourage browning and help it release.\n\n -- Spread about ⅓ cup Buffalo sauce over dough. Arrange mozzarella over, then top with remaining ¼ cup blue cheese. Arrange chicken mixture on top. Bake pizza on top rack until crust and cheese are nicely browned, 15–20 minutes. Transfer skillet to stovetop (again, watch that handle!) and let pizza rest a few minutes. Using a spatula, slide pizza onto a cutting board or platter. Arrange celery over, then top with reserved blue cheese dressing. Season with pepper, then drizzle with oil.'
-  },
-  {
     recipeId: 0,
     categoryId: 0,
     title: 'Classic Lasagna',
@@ -329,7 +265,7 @@ export const recipes = [
   {
     recipeId: 8,
     categoryId: 2,
-    title: 'Lazania',
+    title: 'Lasanga',
     photo_url: 'https://images8.alphacoders.com/817/817353.jpg',
     photosArray: [
       'https://previews.123rf.com/images/somegirl/somegirl1509/somegirl150900048/46103208-top-view-of-a-delicious-traditional-italian-lasagna-made-with-minced-beef-bolognese-sauce-topped-wit.jpg',
@@ -390,13 +326,8 @@ export const ingredients = [
     photo_url: 'https://ak0.picdn.net/shutterstock/videos/26741680/thumb/1.jpg'
   },
   {
-    ingredientId: 5,
-    name: 'Celery salt',
-    photo_url: 'https://www.hasiroglugurme.com/images/urunler/Koftelik-Esmer-Bulgur-resim-297.jpg'
-  },
-  {
     ingredientId: 6,
-    name: 'Dried sage',
+    name: 'Salvie uscată',
     photo_url:
       'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Esxjvv7/super-slow-motion-dried-sage-falling-on-white-background_n1xg2gxzg__F0000.png'
   },
@@ -408,7 +339,7 @@ export const ingredients = [
   },
   {
     ingredientId: 8,
-    name: 'Ground allspice',
+    name: 'Ienibahar măcinat',
     photo_url:
       'https://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/6/9/2695/allspice-berries-jamaican-ground-1.jpg'
   },
@@ -419,12 +350,12 @@ export const ingredients = [
   },
   {
     ingredientId: 10,
-    name: 'Dried basil',
+    name: 'Busuioc',
     photo_url: 'https://www.honeychop.com/wp-content/uploads/2015/09/Dried-Mint.png'
   },
   {
     ingredientId: 11,
-    name: 'Dried marjoram',
+    name: 'Maghiran',
     photo_url: 'https://images-na.ssl-images-amazon.com/images/I/71YATIBqBYL._SX355_.jpg'
   },
   {
@@ -441,7 +372,7 @@ export const ingredients = [
   },
   {
     ingredientId: 14,
-    name: 'Kosher salt',
+    name: 'Sare kosher',
     photo_url:
       'https://d1yn1kh78jj1rr.cloudfront.net/image/preview/r64-6MxPQjlatyfjp/storyblocks-top-view-of-ceramic-salt-cellar-with-coarse-grained-sea-salt-isolated-on-white-background_SPzKionPuV_SB_PM.jpg'
   },
@@ -458,15 +389,9 @@ export const ingredients = [
       'https://image.shutterstock.com/image-photo/egg-whites-yolk-cup-isolated-260nw-1072453787.jpg'
   },
   {
-    ingredientId: 17,
-    name: 'Quarts neutral oil',
-    photo_url:
-      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fgettyimages-464433694_0.jpg%3Fitok%3DK42YR2GV&w=400&c=sc&poi=face&q=85'
-  },
-  {
     ingredientId: 18,
     name: 'Apă',
-    photo_url: 'https://ak1.picdn.net/shutterstock/videos/829561/thumb/11.jpg'
+    photo_url: 'https://depozituldeapa.ro/wp-content/uploads/2023/03/Apa-Craiului-6L-scaled.jpg'
   },
   {
     ingredientId: 19,
@@ -488,14 +413,14 @@ export const ingredients = [
   },
   {
     ingredientId: 22,
-    name: 'Onion chopped',
+    name: 'Ceapă verde tocată',
     photo_url: 'https://s3.envato.com/files/246703499/IMG_1752_5.jpg'
   },
   {
     ingredientId: 23,
-    name: 'Tomato paste',
+    name: 'Pastă tomate',
     photo_url:
-      'http://d3e1m60ptf1oym.cloudfront.net/45bab59a-363c-11e1-ab4e-bf4c2e0bb026/PANELA_xgaplus.jpg'
+      'https://static.mega-image.ro/medias/sys_master/h06/h0e/9244857597982.jpg'
   },
   {
     ingredientId: 24,
@@ -505,15 +430,15 @@ export const ingredients = [
   },
   {
     ingredientId: 25,
-    name: 'Ground Beef',
+    name: 'Carne vită',
     photo_url:
       'https://images.radio.com/kmoxam/s3fs-public/styles/nts_image_cover_tall_775x425/public/dreamstime_s_39607998.jpg?XCM.w1UGOp9sVKkWGQZe7_JIsRddxoIK&itok=3M6KcFLH&c=73fb6497175b4c1a5c79e3ede816656a'
   },
   {
     ingredientId: 26,
-    name: 'Can kidney beans, rinsed and drained ',
+    name: 'Conservă fasole boabe',
     photo_url:
-      'https://www.seriouseats.com/images/2014/04/20140414-pile-of-beans-primary-1500x1125.jpg'
+      'https://static.mega-image.ro/medias/sys_master/h57/hde/9251940433950.jpg'
   },
   {
     ingredientId: 27,
@@ -522,13 +447,13 @@ export const ingredients = [
   },
   {
     ingredientId: 28,
-    name: 'Firtos',
+    name: 'Pește prăjit',
     photo_url:
       'https://previews.123rf.com/images/ksena32/ksena321510/ksena32151000090/45863494-fried-fish-on-a-white-background.jpg'
   },
   {
     ingredientId: 29,
-    name: 'Shredded cheddar',
+    name: 'Cheddar',
     photo_url:
       'https://image.shutterstock.com/image-photo/top-view-small-bowl-filled-260nw-284460308.jpg'
   },
@@ -570,7 +495,7 @@ export const ingredients = [
   {
     ingredientId: 36,
     name: 'Ceapă',
-    photo_url: 'http://www.allwhitebackground.com/images/2/2650.jpg'
+    photo_url: 'https://cdn.freshful.ro/media/cache/sylius_shop_product_original/2b/fb/4cdc2d2a09b2167a89f1fdb0c08d.jpg'
   },
   {
     ingredientId: 37,
@@ -603,11 +528,11 @@ export const ingredients = [
   {
     ingredientId: 42,
     name: 'Unt',
-    photo_url: 'https://redrockstoffee.com/media/2016/11/AdobeStock_76417550.jpeg'
+    photo_url: 'https://josi.ro/wp-content/uploads/2016/05/unt-josi.jpg'
   },
   {
     ingredientId: 43,
-    name: 'Heavy Cream',
+    name: 'Smântână',
     photo_url:
       'https://media.istockphoto.com/photos/mayonnaise-in-bowl-isolated-on-white-background-picture-id614981116?k=6&m=614981116&s=612x612&w=0&h=LtbsI2HQXOTERYuP9YJ2PJfRF3W6DcyZ798fxMcQWC0='
   },
@@ -630,18 +555,18 @@ export const ingredients = [
   },
   {
     ingredientId: 47,
-    name: 'celery stalks',
+    name: 'Țelină',
     photo_url:
-      'https://cdn4.eyeem.com/thumb/6d1b3957c7caa9b73c3e0f820ef854b931808139-1538043742765/w/750'
+      'https://nearlynakedveg.co.uk/cdn/shop/products/Depositphotos_12279854_S.jpg?v=1681376705'
   },
   {
     ingredientId: 48,
-    name: 'Parmesan Chesse',
+    name: 'Parmezan',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/3721877/thumb/1.jpg'
   },
   {
     ingredientId: 49,
-    name: 'pancetta',
+    name: 'Carne Pancetta',
     photo_url:
       'https://previews.123rf.com/images/onlyfabrizio/onlyfabrizio1606/onlyfabrizio160600002/60198502-raw-stripes-of-pancetta-stesa-on-a-white-background.jpg'
   },
@@ -658,7 +583,7 @@ export const ingredients = [
   },
   {
     ingredientId: 52,
-    name: 'Lasagna noodles',
+    name: 'Foietaj Lasagna',
     photo_url:
       'https://previews.123rf.com/images/velkol/velkol1110/velkol111000004/11083085-an-image-of-raw-lasagna-on-white-background.jpg'
   },
@@ -682,19 +607,19 @@ export const ingredients = [
   },
   {
     ingredientId: 56,
-    name: 'minced fresh parsley',
+    name: 'Pătrunjel',
     photo_url:
       'https://t4.ftcdn.net/jpg/02/15/78/05/240_F_215780551_Eid0xpP1M2fokvuEcvJj8uqhROLJkb3p.jpg'
   },
   {
     ingredientId: 57,
-    name: 'ricotta cheese',
+    name: 'Brânză Ricotta',
     photo_url:
       'https://previews.123rf.com/images/barkstudio/barkstudio1608/barkstudio160800351/61418602-ricotta-cheese-into-a-bowl-in-white-background.jpg'
   },
   {
     ingredientId: 58,
-    name: ' fennel seed',
+    name: 'Semințe fenicul',
     photo_url:
       'https://previews.123rf.com/images/pinkomelet/pinkomelet1710/pinkomelet171000227/88851299-close-up-the-fennel-seed-on-white-background.jpg'
   },
@@ -702,7 +627,7 @@ export const ingredients = [
     ingredientId: 59,
     name: 'Banane',
     photo_url:
-      'https://www.conservationmagazine.org/wp-content/uploads/2013/04/sterile-banana.jpg'
+      'https://www.remarkt.ro/cdn/shop/products/Banane_800x.png?v=1597055769'
   },
   {
     ingredientId: 60,
