@@ -70,99 +70,59 @@ export const recipes = [
       `
   },
   {
-    recipeId: 122,
+    recipeId: 1002,
     categoryId: 3,
-    title: 'Fursecuri cu ovăz',
-    photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
+    title: 'Fursecuri cu ovăz și miere',
+    photo_url: 'https://www.lauraadamache.ro/wp-content/uploads/2014/02/biscuiti-post-cu-ovaz-copy.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://www.lauraadamache.ro/wp-content/uploads/2014/02/biscuiti-post-cu-ovaz-copy.jpg',
+      "https://www.lalena.ro/images/uploaded/600x_Biscuiti-cu-fulgi-de-ovaz-si-seminte-365.jpg",
+      "https://i.ytimg.com/vi/Lwv04IiuKTw/maxresdefault.jpg"
     ],
     time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    ingredients: [
+    [0, '50ml'],
+    [1, 'vârf de cuțit'],
+    [5, "150gr"],
+    [13, "100gr"],
+    [12, "225gr"],
+    [17, "50gr"],
+    [44, "100ml"],
+    [67, "50gr"],
+    [66, "50gr"],
+    [68, "1 plic"]],
     description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
+      `
+      - Punem mierea, uleiul, zaharul si laptele de soia intr-un vas. Mixam pana cand se omogenizeaza putin (nu trebuie sa obtinem o consitenta perfect omogena, ci doar sa le amestecam putin).
+      - Adaugam faina amestecata cu praful de copt si ulterior cernuta, fulgii de ovaz, nucile tocate nu foarte marunt, ciocolata si sarea. Framantam pana cand obtinem un aluat compact.
+      - Cu mainile usor umede, formam bilute de marimea unei nuci.
+      - Punem cele 2 linguri de fulgi de ovaz intr-o farfurie si aplatizam fiecare biscuit in farfuria cu fulgi, astfel incat suprafata aplatizata sa fie acoperita cu fulgi de ovaz.
+      - Punem biscuitii in tava de cuptor tapetata cu hartie de copt si ii coacem in cuptorul preincalzit la 180°C pentru circa 20 minute sau pana cand suprafata biscuitilor se rumeneste uniform.
+      - Ii lasam sa se raceasca pe un gratar si apoi ii servim.
+      - O sa observam ca imediat dupa ce ii scoatem din cuptor, sunt moi, dar dupa ce se racesc, se intaresc. Daca ii dorim mai moi, dupa ce s-au racit ii punem pe o farfurie pe care o bagam intr-o punga de plastic, sau, daca aveti la dispozitie, intr-un recipient de plastic inchis ermetic. Daca vrem sa le pastram consistenta crocanta, ii pastram intr-o cutie de metal inchisa ermetic.
+      `
   },
   {
     recipeId: 3,
     categoryId: 4,
-    title: 'Triple Berry Smoothie',
+    title: 'Smoothie de fructe',
     photo_url:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
     photosArray: [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
-      'https://www.vitamix.com/media/other/images/xVitamix-Triple-Berry-Smoothie-square-crop__1.jpg.pagespeed.ic.OgTC3ILD3R.jpg',
       'http://images.media-allrecipes.com/userphotos/960x960/3798204.jpg',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrzui8MM6W66I29VZwVvcjpGv99JW3O1owgupc3KwB65rhAyrZ'
     ],
     time: '10',
     ingredients: [
-      [59, '1'],
-      [60, '1/2 lbs'],
-      [61, '1/2 liters'],
-    ],
-    description: 'In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with blackberries, if desired.'
-  },
-  {
-    recipeId: 2,
-    categoryId: 3,
-    title: 'Vegan Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
-    photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
-      'https://ichef.bbci.co.uk/news/660/cpsprodpb/B2C0/production/_106106754_vegnuggets976.jpg',
-      'https://pixel.nymag.com/imgs/daily/grub/2017/11/22/22-mcds-chicken-tenders.w330.h330.jpg',
-      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge_16_9%2Fpublic%2Fstyles%2Fmain%2Fpublic%2Fgettyimages-508510211.jpg%3Fitok%3Dh-Uryi8r&w=400&c=sc&poi=face&q=85'
-    ],
-    time: '30',
-    ingredients: [
-      [0, '2 quarts'],
-      [16, '1'],
-      [12, '1 cup'],
-      [18, '1 cup'],
-      [19, '1 teaspoon'],
-      [1, '2 teaspoons'],
-      [4, '1/4 teaspoons'],
-      [7, '1/8 teaspoons'],
-      [20, '1/2 teaspoons'],
-      [21, '4']
+      [59, '3 bucăți'],
+      [60, '500gr.'],
+      [61, '500ml'],
     ],
     description:
-      '-- Beat the egg and then combine it with water in a bowl. Stir. Combine the flour, salt, MSG, pepper, onion powder and garlic powder in a gallon size zip lock bag. Pound each of the breast filets until about 1/4-inch thick. Then cut into bite sized pieces. Coat each piece with the flour mixture by shaking in the zip lock bag. Remove and coat in the egg mixture. Then coat in the flour mixture again. Shake to coat. Deep fry at 375 degrees for 10-12 minutes, until browned and crispy.'
-  },
-  {
-    recipeId: 3,
-    categoryId: 3,
-    title: 'Pumpkin Spice Cookies',
-    photo_url:
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
-    photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
-      'https://cdn.junglecreations.com/wp/junglecms/2018/07/4164c5bd-wide-thumbnail.jpg',
-      'https://pinchofyum.com/wp-content/uploads/Crunchwrap-Inside.jpg',
-      'https://monsonmadethis.com/wp-content/uploads/2017/10/IMG_20171015_161017_025-e1533869302263.jpg'
-    ],
-    time: '45',
-    ingredients: [
-      [0, '2 tablespoons'],
-      [22, '1/2'],
-      [23, '2 tablespoons'],
-      [7, '2 cloves'],
-      [3, '1 teaspoon'],
-      [24, '1 tablespoon'],
-      [25, '1 lb'],
-      [1, '2 teaspoons'],
-      [4, '2 teaspoons'],
-      [26, '15 oz'],
-      [27, '8'],
-      [28, '2'],
-      [29, '1 cup']
-    ],
-    description:
-      '-- In a medium pot over medium heat, heat 1 tablespoon oil. Add onion and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Add tomato paste and stir to coat onion and garlic. Add ground beef and cook, breaking up meat with a wooden spoon, until no longer pink, 6 minutes. Drain fat.\n\n -- Return beef to pot and season with chili powder, paprika, salt, and pepper. Add tomato sauce and kidney beans. Bring to a boil, then reduce heat and let simmer 15 minutes. Add some chili to center of each tortilla, leaving room to fold in edges. Top with Fritos, then cheddar. Fold edges of tortillas toward the center, creating pleats. Invert Crunchwraps so pleats are on the bottom and stay together.\n\n -- In medium skillet over medium heat, heat remaining tablespoon oil. Add a Crunchwrap seam side down and cook until tortilla is golden, 3 to 5 minutes per side. Repeat with remaining Crunchwraps'
+    `
+    Într-un blender, combinați toate ingredientele și amestecați până se obține o componență ușor lichidă. Împărțiți rezultatul în 2 pahare și decorați deasupra cu diverse fructe exotice.
+    `
   },
   {
     recipeId: 4,
@@ -170,130 +130,61 @@ export const recipes = [
     title: 'Tacos cu Pește',
     photo_url: 'https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg',
     photosArray: [
+      "https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg",
       'http://d2814mmsvlryp1.cloudfront.net/wp-content/uploads/2014/04/WGC-Fish-Tacos-copy-2.jpg',
-      'https://thecozyapron.com/wp-content/uploads/2018/03/baja-fish-tacos_thecozyapron_1.jpg',
-      'https://www.simplyrecipes.com/wp-content/uploads/2017/06/2017-07-22-FishTacos-6.jpg'
+      'https://thecozyapron.com/wp-content/uploads/2018/03/baja-fish-tacos_thecozyapron_1.jpg'
     ],
     time: '35',
     ingredients: [
-      [30, '1'],
+      [30, '1 bucată'],
       [24, '2 lng.'],
       [0, '3 lng.'],
       [3, '1 lng.'],
       [31, '1/2 lng.'],
-      [32, '1/2 lng.'],
-      [4, '2 teaspoons'],
-      [33, '1/2 lb'],
-      [27, '8'],
-      [14, '2 teasponns'],
-      [34, '1']
+      [32, '2 bucăți'],
+      [4, '2 lng'],
+      [33, '500 gr.'],
+      [27, '8 bucăți'],
+      [14, '2 lingurițe'],
+      [34, '1 bucată']
     ],
     description:
-      '-- In a medium shallow bowl, whisk together olive oil, lime juice, paprika, chili powder, cumin, and cayenne. Add cod, tossing until evenly coated. Let marinate 15 minutes. Meanwhile, make slaw: In a large bowl, whisk together mayonnaise, lime juice, cilantro, and honey. Stir in cabbage, corn, and jalapeño. Season with salt and pepper.\n\n -- In a large nonstick skillet over medium-high heat, heat vegetable oil. Remove cod from marinade and season both sides of each filet with salt and pepper. Add fish flesh side-down. Cook until opaque and cooked through, 3 to 5 minutes per side.\n\n -- Let rest 5 minutes before flaking with a fork. Assemble tacos: Serve fish over grilled tortillas with corn slaw and avocado. Squeeze lime juice on top and garnish with sour cream. '
-  },
-  {
-    recipeId: 5,
-    categoryId: 1,
-    title: 'Chicken Fajitas',
-    photo_url:
-      'https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Flavorful-Chicken-Fajitas_EXPS_GHBZ18_12540_B08_15_8b.jpg',
-    photosArray: [
-      'https://dadwithapan.com/wp-content/uploads/2015/07/Spicy-Chicken-Fajitas-22-1200x480.jpg',
-      'https://3.bp.blogspot.com/-X-dHj7ORF9Q/XH4ssgTuSZI/AAAAAAAAEig/E46HP9wCfdsvyJFcMTX30cw-ICep8lF9ACHMYCw/s1600/chicken-fajitas-mexican-food-id-149559-buzzerg.jpg',
-      'https://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/201403-xl-chipotle-chicken-fajitas.jpg?itok=ghVcI5SQ'
-    ],
-    time: 35,
-    ingredients: [
-      [9, '1/2 teaspoons'],
-      [0, '4 tablespoons'],
-      [1, '1/2 teaspoons'],
-      [30, '2 tablespoons'],
-      [31, '1 teaspoon'],
-      [7, '1 teaspoon'],
-      [24, '1/2 teaspoons'],
-      [3, '1/2 teaspoons'],
-      [21, '1 pound'],
-      [22, '1/2 cup'],
-      [27, '6'],
-      [36, '4'],
-      [37, '1/2'],
-      [38, '1/2']
-    ],
-    description:
-      '-- In a large bowl, combine 2 tablespoons oil, lemon juice and seasonings; add the chicken. Turn to coat; cover. Refrigerate for 1-4 hours In a large skillet, saute peppers and onions in remaining oil until crisp-tender. Remove and keep warm. Drain chicken, discarding marinade. In the same skillet, cook chicken over medium-high heat for 5-6 minutes or until no longer pink.\n\n -- Return pepper mixture to pan; heat through. Spoon filling down the center of tortillas; fold in half. Serve with toppings as desired.'
+      `
+      Într-un bol mediu, amestecați cu telul uleiul de măsline, sucul de lime, paprika, pudra chilli și chimionul.
+      Adăugați peștele în compoziție până este cu totul acoperit și lăsați-l 15 minute la marinat.
+      Între timp putem face sosul: Într-un bol mare, amestecați cu telul maioneza, sucul de lime și mierea, după care adăugați sare și piper.
+      Într-o tigaie se vor prăji legumele la un foc mediu. Peștele va fi scos de la marinat și condimentat pe ambele părți cu sare și piper.
+      Se va prăși peștele pe ambele părți, între 3 și 5 minute.
+      Pentru asamblarea tacoului: Puneți bucățile de pește în lipiile prășite împreună cu avocado. Scurgeți suc de lime deasupra. 
+      `
   },
   {
     recipeId: 0,
     categoryId: 0,
-    title: 'Classic Lasagna',
-    photo_url: 'https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg',
+    title: 'Pizza Margherita',
+    photo_url: 'https://assets.protv.ro/assets/foodstory2019/2015/02/11/image_galleries/5675/cum-sa-faci-pizza-margherita-acasa_size1.jpg',
     photosArray: [
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      "https://assets.protv.ro/assets/foodstory2019/2015/02/11/image_galleries/5675/cum-sa-faci-pizza-margherita-acasa_size1.jpg",
+      "https://www.bindi.de/wp-content/uploads/2022/02/bindi_pizza_margherita.jpg",
+      'https://la-micutu.ro/wp-content/uploads/2022/04/pizza-margherita.jpg'
     ],
     time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
-    description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
-  },
-  {
-    recipeId: 7,
-    categoryId: 2,
-    title: 'Spaghetti Carbonara',
-    photo_url: 'https://truffle-assets.imgix.net/655ce202-862-butternutsquashcarbonara-land.jpg',
-    photosArray: [
-      'https://ak3.picdn.net/shutterstock/videos/10431533/thumb/10.jpg',
-      'https://www.kcet.org/sites/kl/files/styles/kl_image_large/public/thumbnails/image/square_hero_desktop_2x_sfs_spaghetti_carbonara_clr-3.jpg?itok=T-rsBDIZ',
-      'https://cdn-image.foodandwine.com/sites/default/files/HD-201104-r-spaghetti-with-anchovy.jpg'
-    ],
-    time: 15,
     ingredients: [
-      [48, '50g'],
-      [49, '100g'],
-      [50, '350g'],
-      [51, '2 plump'],
-      [42, '50g'],
-      [16, '3'],
-      [1, '2 teaspoons'],
-      [4, '2 teaspoons']
-    ],
+      [39, '270gr'],
+      [53, '35g'],
+      [10, "15gr"],
+      [9, "15gr"],
+      [1, "20gr"],
+      [46, "50gr"],
+      [69, "50gr"],
+      [70, "50gr"]],
     description:
-      '-- Put the egg yolks into a bowl, finely grate in the Parmesan, season with pepper, then mix well with a fork and put to one side. Cut any hard skin off the pancetta and set aside, then chop the meat. Cook the spaghetti in a large pan of boiling salted water until al dente.\n\n -- Meanwhile, rub the pancetta skin, if you have any, all over the base of a medium frying pan (this will add fantastic flavour, or use 1 tablespoon of oil instead), then place over a medium-high heat. Peel the garlic, then crush with the palm of your hand, add it to the pan and leave it to flavour the fat for 1 minute. Stir in the pancetta, then cook for 4 minutes, or until it starts to crisp up. Pick out and discard the garlic from the pan, then, reserving some of the cooking water, drain and add the spaghetti.\n\n -- Toss well over the heat so it really soaks up all that lovely flavour, then remove the pan from the heat. Add a splash of the cooking water and toss well, season with pepper, then pour in the egg mixture – the pan will help to cook the egg gently, rather than scrambling it. Toss well, adding more cooking water until it’s lovely and glossy. Serve with a grating of Parmesan and an extra twist of pepper.'
-  },
-  {
-    recipeId: 8,
-    categoryId: 2,
-    title: 'Lasanga',
-    photo_url: 'https://images8.alphacoders.com/817/817353.jpg',
-    photosArray: [
-      'https://previews.123rf.com/images/somegirl/somegirl1509/somegirl150900048/46103208-top-view-of-a-delicious-traditional-italian-lasagna-made-with-minced-beef-bolognese-sauce-topped-wit.jpg',
-      'https://truffle-assets.imgix.net/87f324e4-YOUTUBE-NO-TXT.00_03_19_14.Imagen_fija001.jpg',
-      'https://images4.alphacoders.com/817/817350.jpg'
-    ],
-    time: 60,
-    ingredients: [
-      [36, '1 large'],
-      [25, '1 pound'],
-      [51, '5 cloves'],
-      [52, '1 pound'],
-      [53, '1 pound'],
-      [54, '1 28 ounce can'],
-      [23, '2 6 ounce can'],
-      [55, '2 tablespoons'],
-      [56, '1/4 cup'],
-      [10, '1/2 cup'],
-      [1, '1/2 teaspoons'],
-      [58, '1 teaspoon'],
-      [4, '1/4 teaspoons'],
-      [16, '1 large'],
-      [46, '1 pound'],
-      [48, '1 cup'],
-      [57, '30 ounces']
-    ],
-    description:
-      '-- Cook noodles according to package directions; drain. Meanwhile, in a Dutch oven, cook sausage, beef and onion over medium heat 8-10 minutes or until meat is no longer pink, breaking up meat into crumbles. Add garlic; cook 1 minute. Drain. Stir in tomatoes, tomato paste, water, sugar, 3 tablespoons parsley, basil, fennel, 1/2 teaspoon salt and pepper; bring to a boil. Reduce heat; simmer, uncovered, 30 minutes, stirring occasionally. In a small bowl, mix egg, ricotta cheese, and remaining parsley and salt. Preheat oven to 375°. Spread 2 cups meat sauce into an ungreased 13x9-in. baking dish. Layer with 3 noodles and a third of the ricotta mixture. Sprinkle with 1 cup mozzarella cheese and 2 tablespoons Parmesan cheese.\n\n -- Repeat layers twice. Top with remaining meat sauce and cheeses (dish will be full). Bake, covered, 25 minutes. Bake, uncovered, 25 minutes longer or until bubbly. Let stand 15 minutes before serving.'
+      `
+      Pentru început avem nevoie de aluatul palinat pe care îl întindem și îl așezăm frumos pe retină. 
+      Urmează a fi pus sosul de roșii, dar să nu atingă marginele pizzei. 
+      Apoi răzălim frumos cașcavalul, mozzarella și topingul deasupra pizzei. 
+      Acum pizza este gata de pus în cuptor pentru următoarele 7 minute.
+      `
   }
 ];
 
@@ -324,6 +215,11 @@ export const ingredients = [
     ingredientId: 4,
     name: 'Piper',
     photo_url: 'https://ak0.picdn.net/shutterstock/videos/26741680/thumb/1.jpg'
+  },
+  {
+    ingredientId: 5,
+    name: 'Ovăz',
+    photo_url: 'https://unicorn-naturals.ro/image/cache/catalog/wp/2017/11/ovaz-600x315w.jpg.webp'
   },
   {
     ingredientId: 6,
@@ -368,13 +264,13 @@ export const ingredients = [
     ingredientId: 13,
     name: 'Zahăr brun',
     photo_url:
-      'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BALQTtekliuc6iu4u/rotating-brown-sugar-in-a-white-container-on-white-background_sis0xtbyl_thumbnail-full01.png'
+      'https://comenzi.farmaciatei.ro/gallery/39010/zahar-brun-din-trestie-de-zahar-1-kg-lucas-bites-9684.jpg'
   },
   {
     ingredientId: 14,
     name: 'Sare kosher',
     photo_url:
-      'https://d1yn1kh78jj1rr.cloudfront.net/image/preview/r64-6MxPQjlatyfjp/storyblocks-top-view-of-ceramic-salt-cellar-with-coarse-grained-sea-salt-isolated-on-white-background_SPzKionPuV_SB_PM.jpg'
+      'https://m.media-amazon.com/images/I/51gfVcUR1qL._SL1000_.jpg'
   },
   {
     ingredientId: 15,
@@ -387,6 +283,12 @@ export const ingredients = [
     name: 'Ouă',
     photo_url:
       'https://image.shutterstock.com/image-photo/egg-whites-yolk-cup-isolated-260nw-1072453787.jpg'
+  },
+  {
+    ingredientId: 17,
+    name: 'Miere',
+    photo_url:
+      'https://edesia.ro/wp-content/uploads/2021/01/edesia.ro-miere-de-albine-poliflora-borcan-500g-1.jpg'
   },
   {
     ingredientId: 18,
@@ -484,7 +386,7 @@ export const ingredients = [
     ingredientId: 34,
     name: 'Avocado',
     photo_url:
-      'https://www.redwallpapers.com/public/redwallpapers-large-thumb/avocado-cut-stone-leaves-white-background-free-stock-photos-images-hd-wallpaper.jpg'
+      'https://fresh-fruits.ro/wp-content/uploads/2019/02/avocado_1050x700.jpg'
   },
   {
     ingredientId: 35,
@@ -589,9 +491,9 @@ export const ingredients = [
   },
   {
     ingredientId: 53,
-    name: 'Sos italian',
+    name: 'Sos de roșii',
     photo_url:
-      'https://previews.123rf.com/images/arinahabich/arinahabich1504/arinahabich150400858/38827029-raw-italian-sausage-on-a-white-background-.jpg'
+      'https://s13emagst.akamaized.net/products/29978/29977241/images/res_9c6ae2d0c9e777cb9e625c4f40658d31.jpg'
   },
   {
     ingredientId: 54,
@@ -671,4 +573,28 @@ export const ingredients = [
     photo_url:
       'https://dulcinea.ro/wp-content/uploads/2022/08/pudra-cacao-olandeza.png'
   },
+  {
+    ingredientId: 67,
+    name: 'Nuci',
+    photo_url:
+      'https://www.roadelepamantului.ro/image/cache/catalog/produse/miez-nuca-800x800.jpg'
+  },
+  {
+    ingredientId: 68,
+    name: 'Praf de copt',
+    photo_url:
+      'https://cdn.freshful.ro/media/cache/sylius_shop_product_original/1a/96/5240eb239fbcfd09f4d90a8d480b.jpg'
+  },
+  {
+    ingredientId: 69,
+    name: 'Cașcaval',
+    photo_url:
+      'https://viomil.ro/wp-content/uploads/2016/09/product-1-1.jpg'
+  },
+  {
+    ingredientId: 70,
+    name: "Topping Pizza",
+    photo_url:
+      "https://storage.googleapis.com/bringoimg/web/cache/sylius_shop_product_original/c3/f1/1d4bbc6f136b1ddf8f22e22ff21e.jpg"
+  }
 ];
