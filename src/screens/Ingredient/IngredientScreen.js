@@ -17,7 +17,7 @@ export default function IngredientScreen(props) {
   }, []);
 
   const onPressRecipe = (item) => {
-    navigation.navigate("Recipe", { item });
+    navigation.navigate("Rețeta", { item });
   };
 
   const renderRecipes = ({ item }) => (
@@ -35,7 +35,7 @@ export default function IngredientScreen(props) {
       <View style={{ borderBottomWidth: 0.4, marginBottom: 10, borderBottomColor: "grey" }}>
         <Image style={styles.photoIngredient} source={{ uri: "" + ingredientUrl }} />
       </View>
-      <Text style={styles.ingredientInfo}>Recipes with {ingredientName}:</Text>
+      <Text style={styles.ingredientInfo}>Rețete ce folosesc {ingredientName}:</Text>
       <View>
         <FlatList vertical showsVerticalScrollIndicator={false} numColumns={2} data={getRecipesByIngredient(ingredientId)} renderItem={renderRecipes} keyExtractor={(item) => `${item.recipeId}`} />
       </View>

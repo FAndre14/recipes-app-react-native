@@ -54,7 +54,7 @@ export default function SearchScreen(props) {
   };
 
   const onPressRecipe = (item) => {
-    navigation.navigate("Recipe", { item });
+    navigation.navigate("Rețeta", { item });
   };
 
   const renderRecipes = ({ item }) => (

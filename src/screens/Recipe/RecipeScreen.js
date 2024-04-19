@@ -102,14 +102,14 @@ export default function RecipeScreen(props) {
             style={styles.infoPhoto}
             source={require("../../../assets/icons/time.png")}
           />
-          <Text style={styles.infoRecipe}>{item.time} minutes </Text>
+          <Text style={styles.infoRecipe}>{item.time} minute </Text>
         </View>
 
         <View style={styles.infoContainer}>
           <ViewIngredientsButton
             onPress={() => {
               let ingredients = item.ingredients;
-              let title = "Ingredients for " + item.title;
+              let title = "Ingrediente pentru " + item.title;
               navigation.navigate("IngredientsDetails", { ingredients, title });
             }}
           />

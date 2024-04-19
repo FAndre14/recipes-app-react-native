@@ -28,7 +28,7 @@ function MainNavigator() {
     >
       <Stack.Screen name='Acasă' component={HomeScreen} />
       <Stack.Screen name='Categorii' component={CategoriesScreen}/>
-      <Stack.Screen name='Recipe' component={RecipeScreen}/>
+      <Stack.Screen name='Rețeta' component={RecipeScreen}/>
       <Stack.Screen name='RecipesList' component={RecipesListScreen} />
       <Stack.Screen name='Ingredient' component={IngredientScreen} />
       <Stack.Screen name='Căutare' component={SearchScreen} />
